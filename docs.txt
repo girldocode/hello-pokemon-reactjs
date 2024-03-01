@@ -1,0 +1,9 @@
+GET - all types: https://pokeapi.co/api/v2/type/
+GET - single type: https://pokeapi.co/api/v2/type/{type number EXP: 1}
+
+GET - all pokemons: https://pokeapi.co/api/v2/pokemon
+GET - single pokemon: https://pokeapi.co/api/v2/pokemon/{pokemon name, EXP: ditto}
+
+
+[image, title] - thumbnail/cover
+ref: https://youtu.be/Iz5iNOMCIjY?si=q5vQMmxmrRJaOU8x

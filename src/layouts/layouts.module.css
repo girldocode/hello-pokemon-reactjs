@@ -1,0 +1,13 @@
+.home-layout {
+    margin-left: 7.625rem;
+    margin-right: 7.625rem;
+    overflow-y: auto;
+}
+
+@media only screen and (max-width: 625px) {
+    .home-layout {
+        margin-left: 10px !important;
+        margin-right: 10px !important;
+
+    }
+}

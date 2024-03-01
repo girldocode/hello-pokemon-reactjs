@@ -1,0 +1,66 @@
+.container {
+    margin-top: 5rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+button {
+    display: inline-block;
+    background-color: #F2910A;
+    margin: 5px;
+
+    border: none;
+    cursor: pointer;
+    border: 1px solid rgba(27, 31, 35, 0.15);
+    border-radius: 6px;
+    color: #24292E;
+    font-size: 14px;
+    line-height: 20px;
+    list-style: none;
+    padding: 6px 16px;
+    position: relative;
+    transition: background-color 0.2s cubic-bezier(0.3, 0, 0.5, 1);
+}
+
+button:active {
+    background-color: yellow;
+    box-shadow: rgba(225, 228, 232, 0.2) 0 1px 0 inset;
+    transition: none 0s;
+}
+
+button:focus {
+    outline: 1px transparent;
+}
+
+button:before {
+    display: none;
+}
+
+.container::-webkit-scrollbar {
+    width: 12px;
+    height: 5px;
+}
+
+.container::-webkit-scrollbar-track {
+    background: #FFCB05
+}
+
+.container::-webkit-scrollbar-thumb {
+    background: #2E71B5;
+    border-radius: 6px;
+}
+
+.container::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(to bottom, #3d73bb, #3565a4);
+}
+
+.container::-webkit-scrollbar-corner {
+    background: #f1f1f1;
+}
+
+.container::-webkit-scrollbar-thumb:active {
+    background: linear-gradient(to bottom, #30598e, #2a4f7d);
+}

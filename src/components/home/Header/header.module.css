@@ -1,0 +1,11 @@
+.header {
+    display: flex;
+    justify-content: center;
+    padding-top: 3rem;
+
+}
+
+header .logo {
+    width: 180px;
+
+}
